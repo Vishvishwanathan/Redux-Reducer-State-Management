@@ -4,6 +4,7 @@ import Sidebar from './Components/Sidebar/Sidebar';
 import Home from './Pages/Home/Home';
 import NoteLayout from './Pages/Notes/NoteLayout';
 import TaskLayout from './Pages/Tasks/TaskLayout';
+import Trash from './Pages/Trash/Trash';
 
 
 
@@ -20,6 +21,7 @@ function App() {
               <Route path='/' Component={Home}/>
               <Route path='/noteslayout' Component={NoteLayout}/>
               <Route path='/tasklayout' Component={TaskLayout}/>
+              <Route path='/trash' Component={Trash}/>
             </Routes>
           </div>
         </div>
